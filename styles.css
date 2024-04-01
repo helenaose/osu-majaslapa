@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body.homepage {
+    background-image: url('images/cinija1.jpeg');
+    background-size: 100%;
+}
+
+header.homepage {
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255); 
+    margin: 0;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 1.5%;
+}
+
+div.homepage1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 7em;
+    padding-top: 4%; 
+}
+
+div.homepage2 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    padding-bottom: 0.5%; 
+}
+
+.transparent-block {
+    background-color: rgba(255, 255, 255, 0.5); /* Change the color and transparency as needed */
+}
+
+.scrollable-content {
+    width: 50%; /* Adjust as needed */
+    height: 140vh; /* This makes the div as tall as the viewport */
+    margin: 0 auto; /* This centers the div */
+    background-color: rgba(255, 255, 255, 0.8); /* This makes the background semi-transparent white, adjust as needed */
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #858585;
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 1.5%;
+    font-family: 'Georgia', serif;
+    color: #ffffff;
+}
